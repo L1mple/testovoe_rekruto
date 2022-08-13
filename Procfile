@@ -1,1 +1,1 @@
-web: gunicorn recruto.wsgi 
+web: gunicorn recruto.wsgi --host 0.0.0.0 --port $PORT
