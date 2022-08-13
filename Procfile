@@ -1,1 +1,1 @@
-web: gunicorn recruto.wsgi --log-file -
+web: gunicorn recruto.wsgi 
