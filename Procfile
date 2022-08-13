@@ -1,3 +1,3 @@
-web: gunicorn recruto.wsgi:application --log-file - --log-level debug  --syslog_addr 0.0.0.0
+web: gunicorn recruto.wsgi:application --log-file - --log-level debug  
 python manage.py collectstatic --noinput
 manage.py migrate
