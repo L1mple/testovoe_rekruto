@@ -1,3 +1,3 @@
-web: gunicorn recruto.wsgi:application --log-file - --log-level debug --host 12.12.12.12
+web: gunicorn recruto.wsgi:application --log-file - --log-level debug  
 python manage.py collectstatic --noinput
 manage.py migrate
